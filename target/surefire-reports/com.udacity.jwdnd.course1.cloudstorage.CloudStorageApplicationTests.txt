@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 21.533 s <<< FAILURE! - in com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests
+testLargeUpload  Time elapsed: 1.547 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59094/devtools/browser/a9178fab-87a5-4509-8688-41d177d2e0f7
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+getLoginPage  Time elapsed: 0.619 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59110/devtools/browser/11ce2053-a8dc-4877-931f-2da8743dd19b
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+unauthorizedUserAccessibleRoutes  Time elapsed: 0.676 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59125/devtools/browser/e6cd1dbb-4e89-4f6d-85bc-3a7796f6734c
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+deleteCredentials  Time elapsed: 0.599 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59141/devtools/browser/1584ca49-3a40-46a5-8b04-b3792b59c9e9
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+createCredential  Time elapsed: 0.607 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59157/devtools/browser/bf313c8d-f535-4ab8-9cd4-c677b8ced131
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+testBadUrl  Time elapsed: 0.638 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59173/devtools/browser/a7aceae5-8a69-4f60-87b5-6f1f5c8b6d9c
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+testRedirection  Time elapsed: 0.659 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59189/devtools/browser/f02f2287-eda4-4376-a35a-30b30c1cd318
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+createNote  Time elapsed: 0.673 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59205/devtools/browser/0364bebc-40cb-49ad-9920-4188f60ec6ed
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+editNote  Time elapsed: 0.64 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59225/devtools/browser/135fb9c0-6b64-439e-8520-9118175f0150
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+deleteNote  Time elapsed: 0.632 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59241/devtools/browser/eed781d8-8970-417b-b681-f0bc7f23560b
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+testUserSignupLoginLogout  Time elapsed: 0.788 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59260/devtools/browser/49132035-b8ff-4f53-820b-6bbc853ad825
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
+editCredentials  Time elapsed: 0.632 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:59278/devtools/browser/b583fdfd-9da3-4c04-9080-d28a8b7620df
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I4JRU21', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: ChromeDriver
+	at com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplicationTests.beforeEach(CloudStorageApplicationTests.java:34)
+
